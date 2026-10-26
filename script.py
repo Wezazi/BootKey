@@ -30,7 +30,7 @@ for index, value in enumerate(permutationBox):
     
 hexBootKey = "".join(keyList)
 
-print(hexBootKey)
+print(f"The boot key: {hexBootKey}")
 
 
 #This script was created with the help of https://winreg-kb.readthedocs.io/en/latest/sources/system-keys/Local-security-authority.html and https://github.com/mkorman90/regipy/blob/master/regipy/plugins/system/bootkey.py
